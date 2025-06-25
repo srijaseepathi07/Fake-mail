@@ -1,0 +1,15 @@
+#fake & original
+Features                	                  Fake Email	                                                               Original Email
+Sender Address	                    Often uses misspelled or look-alike domains                       Uses official domain (e.g., @amazon.com
+                                      (e.g., amaz0n-support.com)                                     
+Greeting                            Generic ("Dear customer", "Hello user")	                          Personalized (your real name)
+Language/Tone	                      Urgent, threatening, or overly pushy                            	Professional and calm
+                                       (e.g., “Your account will be closed!”)                         
+Links                              	May contain suspicious URLs                                        Links go to the company’s real website
+                                       (hover to check: they might lead to unrelated sites)
+Attachments                         Often includes unexpected or                                  	   Only includes relevant, expected attachment
+                                        strange attachments (e.g., .exe, .zip, .scr)                        (usually PDF, invoice, etc.)
+Spelling/Grammar                     Often has spelling or grammar mistakes                           	Professionally written
+Request for Personal Info	            Asks for passwords, credit card numbers, OTPs	                   Legit companies rarely ask for sensitive info over email
+Email Authentication	              Fails SPF/DKIM/DMARC checks (advanced users can check headers)	   Passes email authentication
+Unsubscribe Link	                   May not have one, or it’s fake	                                   Real unsubscribe link at bottom (especially for newsletters)
