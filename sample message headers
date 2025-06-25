@@ -1,0 +1,21 @@
+# sample message header
+Return-Path: <support@paypalsecurity-alert.com>
+Received: from suspicious-ip.example.net (unknown [192.0.2.15])
+    by mail.example.com (Postfix) with ESMTPS id ABC1234
+    for <user@example.com>; Tue, 25 Jun 2025 14:22:01 +0000 (UTC)
+Authentication-Results: mail.example.com;
+    spf=fail (sender IP is 192.0.2.15) smtp.mailfrom=paypalsecurity-alert.com;
+    dkim=fail header.d=paypalsecurity-alert.com;
+    dmarc=fail action=quarantine header.from=paypalsecurity-alert.com
+Message-ID: <01HSHXYZ99ABCD@paypalsecurity-alert.com>
+From: "PayPal Security" <support@paypalsecurity-alert.com>
+To: user@example.com
+Subject: 🚨 Immediate Action Required – Account Suspended
+Date: Tue, 25 Jun 2025 14:21:59 +0000
+ # Key Things to Analyze in the Header
+Field	What to Check
+Return-Path	Is it the same domain as the real company (e.g., @paypal.com)?
+Received	Shows the real IP address and mail server path.
+Authentication-Results	Look for spf=fail, dkim=fail, or dmarc=fail. These mean it likely wasn't authorized by the real company.
+Message-ID	Fake or unusual domain often appears here.
+From vs Reply-To	Sometimes the visible "From" looks safe, but "Reply-To" goes to a fraudster's address.
