@@ -1,0 +1,33 @@
+#fake mail
+From: support@paypalsecurity-alert.com
+To: user@example.com
+Subject: 🚨 Immediate Action Required – Account Suspended
+
+Dear Valued Customer,
+
+We have detected unusual activity in your PayPal account. To protect your account, we have temporarily suspended access.
+To restore full access, please verify your identity immediately by clicking the link below:
+
+👉 Click here to verify your account
+
+Failure to do so within 24 hours will result in permanent account suspension.
+
+Thank you for your prompt attention.
+
+Sincerely,
+PayPal Security Team
+ # message headers
+ Return-Path
+
+Received
+
+From and Reply-To
+
+Authentication-Results (e.g., SPF, DKIM, DMARC)
+
+User-Agent
+
+Message-ID
+
+Date
+
